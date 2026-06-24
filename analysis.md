@@ -89,3 +89,123 @@ job:
   5. 기획~디자인~개발~인프라~배포 턴키 일괄 수행
 - **제안 기술 스택**: Next.js · React · TypeScript · Tailwind CSS · NestJS · PostgreSQL · Nginx · Docker · AWS(EC2/RDS) · SSL
 - **추천 포트폴리오**: EZ-Approve, Harmony Link, Series-B
+
+## 6. 최종 산출물 (8단계 출력 전문)
+
+### 6-1. 제안서 사이트 URL
+https://proposal-router.claude-ai-b27.workers.dev/proposal-corporate-product-promo-website/
+
+### 6-2. 지원 금액
+```
+8,500,000원
+```
+> VAT 별도
+
+### 6-3. 지원 기간
+```
+60일
+```
+
+### 6-4. 클라이언트 질문 답변
+해당 없음 (공고에 클라이언트 질문 없음)
+
+### 6-5. 지원 내용 (전체 텍스트)
+
+안녕하세요, 기업 소개 및 연구/제품 홍보용 웹사이트 구축 프로젝트에 지원합니다.
+
+본 프로젝트에 대한 상세 제안서(견적서, 공수계산서, PRD, 일정, 포트폴리오)를 별도 페이지로 준비하였습니다. 아래 링크에서 확인해 주시면 감사하겠습니다.
+▶ 제안서 상세 페이지: https://proposal-router.claude-ai-b27.workers.dev/proposal-corporate-product-promo-website/
+▶ 위시켓 포트폴리오: https://www.wishket.com/partners/p/blueverse1/
+
+---
+
+<프로젝트 진행 제안>
+
+■ 프로젝트 분석
+- 회사·제품을 소개하는 단순 소개용 신규 홈페이지를 서버 인프라부터 턴키로 구축하는 프로젝트로 이해하였습니다.
+- 핵심은 ① 비개발자도 직접 콘텐츠를 운영하는 관리자(CMS), ② 안정적인 신규 인프라(서버·DB·SSL) 구축, ③ 제품 홍보에 최적화된 반응형 소개 웹의 세 가지입니다.
+- 사용자 페이지: 회사 소개, 제품 홍보(이미지 노출), 공지 게시판(텍스트 기반). 회원가입/로그인/회원관리는 범위에서 제외합니다.
+- 관리자 페이지: 홈페이지 텍스트·이미지 수정(사이트 관리), 게시판 글 작성·수정·삭제(게시판 관리).
+- 인프라: OS·웹서버·DB를 신규 호스팅에 처음부터 세팅, 기존 솔루션과 독립된 신규 웹서버 환경 구성, 도메인 연결 및 SSL 적용.
+- 비기능: PC·모바일 반응형, SSL 보안 인증서, SEO 최적화.
+
+■ 작업 일정
+
+[Phase 1] 기획/설계 (Day 1–12)
+- 요구사항 정의, 사이트 구조(IA), 화면설계, DB/ERD, API 명세 작성
+
+[Phase 2] UI/UX 디자인 (Day 13–26)
+- 디자인 시스템, 전 페이지 반응형 시안, 디자인 원본 파일 제작
+
+[Phase 3] 인프라 구축 (Day 20–32, 병행)
+- 신규 호스팅에 OS·웹서버(Nginx)·DB 세팅, 도메인 연결, SSL 적용, 배포 환경 구성
+
+[Phase 4] 개발 FE+BE (Day 27–52)
+- 사용자 페이지(회사 소개·제품 홍보·공지 게시판), 게시판·콘텐츠 관리 API, 관리자(CMS) 구현
+
+[Phase 5] QA/배포 (Day 53–60)
+- 크로스브라우저·반응형 QA, 버그 수정, 최종 배포, 관리자 매뉴얼 작성·인수인계
+
+■ 마일스톤 및 산출물
+- M1(Day 12): 기획안 컨펌 — 요구사항·화면설계 문서
+- M2(Day 26): 디자인 컨펌 — 전 페이지 반응형 시안
+- M3(Day 32): 서버 세팅 완료 — 신규 인프라·SSL 정상 동작
+- M4(Day 52): 개발 완료 — 사용자·관리자 기능 통합 동작
+- M5(Day 60): 최종 오픈(납품) — 기획 문서, 디자인 원본, 소스 코드 원본, 관리자 매뉴얼 일체 인수인계
+
+■ 미팅 시 협의 필요 사항
+- 기술 스택 확정(제안: Next.js + NestJS + PostgreSQL + Nginx + AWS, 협의 조정 가능)
+- 호스팅/도메인 명의 및 준비 주체(클라이언트 명의 권장)
+- 제품 콘텐츠(원고·제품 이미지) 제공 일정 및 분량
+- 다국어(영문) 페이지 필요 여부
+- 관리자 계정 운영 권한 범위
+
+---
+
+<유사 프로젝트 진행 경험>
+
+▶ EZ-Approve (기업용 전자결재 SaaS)
+- 프로젝트 유형: B2B SaaS / 기업용 소프트웨어 / 관리자 CMS
+- 핵심 기능: 관리자 대시보드, 사이트 콘텐츠 관리(CMS), 리치 에디터 기반 문서 작성·수정·삭제, Docker 배포
+- 유사점: 본 과업 핵심인 관리자 페이지(사이트 텍스트·이미지 수정 + 게시판 글 작성/수정/삭제)와 동일 구조, 비개발자 운영 어드민 UX 경험
+- 기술 스택: NestJS, Next.js, TypeScript, MySQL, Docker
+
+▶ Harmony Link (시니어 케어 관리 플랫폼)
+- 프로젝트 유형: B2B SaaS / 헬스케어 / 인프라 신규 구축
+- 핵심 기능: Next.js/React 반응형 웹, AWS 기반 서버·DB 인프라 신규 구축 및 배포, 콘텐츠 관리
+- 유사점: 본 과업의 서버/DB/인프라 신규 구축 및 반응형 웹 요구에 직접 부합, 신규 호스팅 환경 일괄 세팅 경험
+- 기술 스택: Next.js, NestJS, React, AWS CDK, Docker
+
+▶ Series-B (펀드 관리 웹 포털)
+- 프로젝트 유형: 웹 포털 / 콘텐츠 중심 풀스택 웹
+- 핵심 기능: Next.js 다수 페이지 웹 포털, 콘텐츠/문서 관리, AWS 인프라, 관리자 편집·게시 워크플로우
+- 유사점: 다수 페이지 소개·콘텐츠 중심 웹 + 관리자 편집 + SEO 최적화 경험을 본 소개 사이트에 적용 가능
+- 기술 스택: Next.js, NestJS, MySQL, AWS
+
+---
+
+<사용 기술과 툴>
+
+▶ 개발 기술
+- 프론트엔드: Next.js, React, TypeScript, Tailwind CSS (반응형)
+- 백엔드: NestJS (Node.js), TypeScript — 게시판·콘텐츠 관리 API
+- 데이터베이스: PostgreSQL
+- 인프라: AWS (EC2/RDS), Nginx 웹서버, Ubuntu OS, Docker, SSL(Let's Encrypt/ACM)
+- SEO: Next.js SSR/SSG, 메타태그·sitemap·OG 태그
+
+▶ 개발 도구 및 인프라
+- 버전 관리: GitHub
+- CI/CD: GitHub Actions
+- 클라우드: AWS (EC2 + RDS)
+- 컨테이너: Docker
+
+▶ 커뮤니케이션
+- 일일 진행 공유: Slack 또는 카카오톡
+- 주간 미팅: Zoom / Google Meet
+- 문서 공유: Notion 또는 Google Docs
+- 이슈 트래킹: GitHub Issues
+
+### 6-6. 관련 포트폴리오 추천
+1. EZ-Approve — 관리자 CMS(사이트 콘텐츠 수정 + 게시판 CRUD) 구조가 본 과업 핵심과 직결 (★★★★☆ 4.4)
+2. Harmony Link — AWS 인프라 신규 구축 + 반응형 웹, 서버/DB 일괄 세팅 경험 (★★★★ 4.0)
+3. Series-B — Next.js 콘텐츠 중심 웹 + 관리자 편집 + SEO 경험 (★★★★ 3.7)
